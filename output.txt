@@ -1,0 +1,400 @@
+                                                                                  complaint_text     category urgency        city  days_taken resolved
+0                                                      Mere ghar mein teen din se bijli nahi hai  Electricity    High      Kanpur           3      Yes
+1                                Bijli ka bill bahut zyada aaya hai is mahine, please check kare  Electricity     Low       Noida           9      Yes
+2                           Transformer kharab ho gaya hai humari gali mein, andhera hai raat se  Electricity    High      Kanpur           5      Yes
+3                       Voltage bahut low aata hai shaam ke time, appliances kharab ho rahe hain  Electricity  Medium   Allahabad           3      Yes
+4                                  Bijli ka khambha gir gaya hai road par, accident ho sakta hai  Electricity    High     Lucknow           2      Yes
+5                                            Meter reading galat aa rahi hai pichle do mahine se  Electricity     Low       Patna          15      Yes
+6                   Power cut bahut zyada ho rahe hain area mein, business mein loss ho raha hai  Electricity  Medium   Ghaziabad          22       No
+7                     Naya connection ke liye apply kiya tha ek mahine pehle, abhi tak nahi mila  Electricity     Low     Mathura          19      Yes
+8                            Bijli ki taar khuli padi hai colony mein, bachche khelte hain wahan  Electricity    High      Meerut           4      Yes
+9                                        Streetlight nahi jalti hamari street mein kaafi dino se  Electricity  Medium   Moradabad           5      Yes
+10                               Short circuit ho gaya tha ghar mein, smell aa rahi thi jalne ki  Electricity    High   Ghaziabad           1      Yes
+11                                   Bijli vibhag ka office band rehta hai office hours mein bhi  Electricity     Low     Lucknow          23       No
+12                          Ek hi area mein baar baar bijli jaa rahi hai, dusri jagah nahi jaati  Electricity  Medium  Saharanpur           7      Yes
+13                     Naya meter laga diya tha lekin bill ab bhi purane address par aa raha hai  Electricity     Low       Delhi          37       No
+14                            Underground cable fault ho gaya hai, pura mohalla andhere mein hai  Electricity    High      Kanpur          11       No
+15                    Solar connection ke subsidy form jama kiya tha, status nahi pata chal raha  Electricity     Low      Bhopal          20      Yes
+16                                   Bijli ka tar peed ki shaakha se chipak gaya hai, khatra hai  Electricity    High  Saharanpur           1      Yes
+17                                    Inverter backup nahi mil raha kyunki line khud hi weak hai  Electricity  Medium       Delhi           7      Yes
+18                              Bijli ka pole tedha ho gaya hai tufan ke baad, gira ho sakta hai  Electricity    High   Gorakhpur          13       No
+19                                                 AC chalane par bar bar trip ho jata hai meter  Electricity  Medium      Nagpur           6      Yes
+20                                Naye flat mein connection ke liye NOC nahi mil rahi society se  Electricity     Low       Noida          19      Yes
+21                                   Bijli department wale call nahi uthate complaint number par  Electricity  Medium     Lucknow           9      Yes
+22                                 Smart meter laga tha lekin reading app mein show nahi ho raha  Electricity     Low       Patna          16      Yes
+23                                      Festival season mein lagataar cuts ho rahe hain shaam ko  Electricity  Medium      Jaipur           9      Yes
+24                                       Pole se spark nikal raha tha kal raat, dar lag raha hai  Electricity    High      Nagpur           3      Yes
+25                                  Bill mein purane bakaya add kar diya jo already pay kiya tha  Electricity     Low   Gorakhpur           9      Yes
+26                     Substation se awaaz aati hai bahut zyada, complaint ki but suna nahi gaya  Electricity  Medium     Mathura           8      Yes
+27                                       Ghar ka fuse roz udh jata hai, wiring purani hai shayad  Electricity  Medium     Lucknow          10      Yes
+28   Naye connection ka estimate diya tha lekin paisa jama karne ke baad bhi kaam shuru nahi hua  Electricity  Medium   Moradabad          16       No
+29                             Industrial area mein bijli ka load shed roz hota hai dopahar mein  Electricity  Medium    Bareilly           9      Yes
+30                                Meter box tuta hua hai, baarish ka paani seedha andar jata hai  Electricity    High   Ghaziabad           5      Yes
+31                                       Bijli bill online portal kaam nahi kar raha do hafte se  Electricity     Low     Lucknow          36       No
+32                                             Connection katne ki dhamki di gayi bina notice ke  Electricity  Medium   Ghaziabad          16       No
+33                           Wiring purani ho gayi hai pure mohalle mein, short lagne ka dar hai  Electricity    High  Saharanpur           2      Yes
+34                                 Subsidy wala bill nahi mila is baar, full rate par charge hua  Electricity     Low    Varanasi          39       No
+35                                           Tree ki shaakhe bijli ki taar se touch ho rahi hain  Electricity    High    Varanasi           1      Yes
+36                             Complaint register ki lekin koi engineer abhi tak visit nahi kiya  Electricity  Medium      Kanpur           5      Yes
+37                             Bijli ka naya khambha lagaya tha but taar abhi tak nahi jodi gayi  Electricity     Low   Moradabad          13      Yes
+38                     Meter ki seal toot gayi hai, complaint diye but koi nahi aaya check karne  Electricity  Medium       Delhi           4      Yes
+39                              Bijli department ne galat address par disconnection notice bheja  Electricity     Low  Saharanpur          15      Yes
+40                              Heavy rain ke baad se transformer mein humming sound aa rahi hai  Electricity    High   Ghaziabad           1      Yes
+41             Three phase connection ke liye apply kiya tha factory ke liye, abhi tak nahi mila  Electricity  Medium   Allahabad          17       No
+42                                       Bijli ki taar low hang kar rahi hai truck ke route mein  Electricity    High       Noida           5      Yes
+43                              Society ka common area meter alag se bill kar diya gaya galti se  Electricity     Low   Allahabad          20      Yes
+44          Naye area mein bijli connection ke rate bahut zyada maange ja rahe hain unofficially  Electricity  Medium      Indore           6      Yes
+45                        Bijli ka load badhane ke liye application diya tha, response nahi mila  Electricity     Low      Indore          16      Yes
+46                      Power house se complaint ka jawab automated message hi aata hai har baar  Electricity     Low      Indore          21       No
+47                     Earthing nahi ki gayi thi naye connection mein, current lagne ka risk hai  Electricity    High       Noida           5      Yes
+48                               Bijli ka bill ek hi ghar ke do alag meter number se aa raha hai  Electricity     Low        Agra          13      Yes
+49                          Maintenance ke naam par bina notice diye din mein bijli kaat di gayi  Electricity  Medium        Agra           7      Yes
+50                                  Hamare area mein paani nahi aa raha hai pichle paanch din se        Water    High     Lucknow           1      Yes
+51                           Paani ka pressure bahut kam hai, upar wali floor tak nahi pahunchta        Water  Medium   Gorakhpur          10      Yes
+52                                Paani ki pipeline phat gayi hai, sadak par paani bhar gaya hai        Water    High  Saharanpur           3      Yes
+53                                                Ganda paani aa raha hai naal se, peela rang ka        Water    High  Saharanpur           3      Yes
+54                                       Tanker nahi aaya is hafte, paise jama karne ke baad bhi        Water  Medium     Lucknow           6      Yes
+55                                       Borewell ka paani kharab ho gaya hai, smell aa rahi hai        Water  Medium    Varanasi          27       No
+56                                       Sewer line ka paani peene ke paani mein mix ho raha hai        Water    High    Bareilly           3      Yes
+57               Naya water connection ke liye form diya tha do mahine pehle, abhi tak nahi mila        Water     Low       Delhi          20      Yes
+58                                      Paani ka bill bahut zyada aaya hai bina meter check kiye        Water     Low       Delhi          13      Yes
+59                          Hand pump kharab ho gaya hai gaon mein, dur se paani laana padta hai        Water  Medium    Bareilly           6      Yes
+60                                      Water tank overflow ho raha hai roz, wastage ho raha hai        Water     Low   Moradabad          17      Yes
+61                              Pipeline leak ho rahi hai kaafi dino se, road kharab ho rahi hai        Water  Medium      Jaipur          29       No
+62                         Subah sirf ek ghante paani aata hai jo kaafi nahi hai parivar ke liye        Water  Medium        Agra           5      Yes
+63                                                      Paani ki tanki mein keede dikh rahe hain        Water    High       Noida           5      Yes
+64                                       Naye area mein abhi tak paani ki line hi nahi bichi hai        Water  Medium   Allahabad          26       No
+65                                        Paani supply ka time change ho gaya hai bina notice ke        Water     Low       Noida          15      Yes
+66                                Borewell sookh gaya hai garmi ki wajah se, alternative chahiye        Water  Medium      Jaipur           3      Yes
+67                                       Paani mein mitti aati hai, filter karna padta hai pehle        Water  Medium      Kanpur           5      Yes
+68                                   Naye boring ka permission lene mein bahut time lag raha hai        Water     Low      Jaipur          22       No
+69                              Paani ki line aur sewer line aas paas hi daali gayi hai galti se        Water    High   Allahabad           2      Yes
+70                                  RO plant lagaya tha society mein lekin maintenance nahi hoti        Water  Medium     Aligarh           9      Yes
+71                                Paani ka connection illegal tarike se kaata gaya pados wale ne        Water  Medium   Moradabad           9      Yes
+72                                   Summer mein paani ki kami bahut badh jaati hai is area mein        Water    High   Ghaziabad           2      Yes
+73                                         Naya pipeline bichate waqt purani line damage ho gayi        Water  Medium     Mathura           9      Yes
+74                                     Paani ka bill double aaya hai is baar bina explanation ke        Water     Low        Agra          18      Yes
+75                                         Jal board ka office complaint sunta nahi hai dhang se        Water  Medium      Jaipur           5      Yes
+76                                             Paani mein chlorine ki smell bahut zyada aati hai        Water     Low      Nagpur          16      Yes
+77                                           Tanker driver paise maangta hai supply ke alawa bhi        Water  Medium   Allahabad           4      Yes
+78                                          Borewell ka paani khara ho gaya hai peene layak nahi        Water    High      Kanpur           3      Yes
+79                                        Pipeline construction site ke pass se leak ho rahi hai        Water  Medium    Varanasi           9      Yes
+80                               Naye area mein paani ka connection list mein nahi aaya abhi tak        Water     Low        Agra          15      Yes
+81                                        Paani ki kami se kheti par asar pad raha hai gaon mein        Water    High   Moradabad          13       No
+82                                             Water meter kharab hai, sahi reading nahi de raha        Water     Low    Bareilly          20      Yes
+83                              Slum area mein paani ka ek hi common point hai jo kaafi nahi hai        Water    High  Saharanpur           1      Yes
+84                         Paani ki pipe road construction mein damage ho gayi thi, fix nahi hui        Water  Medium       Patna           3      Yes
+85                                            Naal ka paani band ho jata hai bina kisi notice ke        Water  Medium      Indore           8      Yes
+86                            Overhead tank ki safai kabhi nahi hoti, paani mein jama dikhta hai        Water  Medium   Ghaziabad          27       No
+87                                  Naye pipeline connection ka kaam beech mein hi rok diya gaya        Water  Medium      Bhopal           4      Yes
+88                                  Paani ki supply line mein hawa aati hai, pressure nahi banta        Water  Medium      Indore           8      Yes
+89                    Jal nigam ka karamchari paisa maang raha tha connection jaldi dene ke liye        Water  Medium      Kanpur           3      Yes
+90                            Borewell recharge pit ka kaam adhura chhod diya gaya contractor ne        Water     Low      Nagpur          14      Yes
+91                       Naye sector mein paani ki line bichi hai but supply abhi shuru nahi hui        Water  Medium      Bhopal          25       No
+92                             Ek hi line se do colonies ko paani milta hai, ek ko kam milta hai        Water  Medium     Mathura          26       No
+93                                Paani ke tanker ka number diya gaya tha but wo kaam nahi karta        Water     Low     Aligarh          19      Yes
+94                                Overhead tank ka valve kharab hai, paani waste ho raha hai roz        Water     Low    Varanasi           8      Yes
+95                                  Naya hand pump laga tha but ek mahine mein hi kharab ho gaya        Water  Medium      Indore          10      Yes
+96                                             Paani ki quality test kabhi nahi hui is area mein        Water  Medium   Moradabad          24       No
+97                                Jal board complaint app crash hota rehta hai submit karte waqt        Water     Low      Nagpur           8      Yes
+98                    Paani supply timing itni odd hai ki log raat ko jaagte hain bharne ke liye        Water  Medium       Patna          20       No
+99                               Naye connection ka paisa jama kiya but ek saal se kaam nahi hua        Water    High   Moradabad           4      Yes
+100                                              Hamari gali ki road mein bahut bade gaddhe hain        Roads  Medium   Allahabad           9      Yes
+101                                          Road par paani bhar jata hai halki baarish mein bhi        Roads  Medium   Gorakhpur          23       No
+102                                          Naya road bana tha lekin ek mahine mein hi tut gaya        Roads     Low      Bhopal          17      Yes
+103                                Speed breaker bina marking ke hai, accident ho gaya raat mein        Roads    High      Kanpur           3      Yes
+104                                     Footpath par encroachment hai, paidal chalna mushkil hai        Roads     Low      Kanpur          13      Yes
+105                                          Road divider toot gaya hai, traffic mix ho raha hai        Roads  Medium    Varanasi          15       No
+106                                     Construction material road par hi pada hai kaafi dino se        Roads     Low    Bareilly          15      Yes
+107                                       Flyover ka kaam ruka hua hai, traffic jam hota hai roz        Roads  Medium      Kanpur           6      Yes
+108                                   Manhole ka cover toota hua hai road par, koi gir sakta hai        Roads    High        Agra           2      Yes
+109                              Streetlight nahi hai highway par, raat mein accident ka dar hai        Roads    High      Bhopal           5      Yes
+110                               Sadak ki marking mit gayi hai, lane samajh nahi aati raat mein        Roads  Medium   Moradabad          15       No
+111                                                  Galiyon mein road hi nahi bani hai abhi tak        Roads  Medium      Kanpur           7      Yes
+112                                     Pul ki haalat kharab hai, dar lagta hai cross karte waqt        Roads    High       Noida           2      Yes
+113                                                      Road par traffic signal kaam nahi karta        Roads  Medium     Lucknow          10      Yes
+114                                       Naala overflow karke road par aa jata hai baarish mein        Roads  Medium     Lucknow           5      Yes
+115                                                   Zebra crossing mit gaya hai school ke pass        Roads  Medium      Jaipur           7      Yes
+116               Heavy vehicles residential area mein chalte hain jisse road kharab ho rahi hai        Roads     Low       Patna          26       No
+117                                           Bridge ke approach road mein gaddha hai bahut bada        Roads    High      Bhopal           3      Yes
+118                                               Naya overbridge ka kaam saalon se ruka hua hai        Roads     Low   Moradabad          32       No
+119                                            Road par tar nahi bicha, sirf gitti dali gayi thi        Roads  Medium   Allahabad           4      Yes
+120                                                   School zone mein speed limit sign nahi hai        Roads  Medium    Varanasi           8      Yes
+121                                          Footpath ki tiles uthi hui hain, log gir jaate hain        Roads  Medium   Gorakhpur          22       No
+122                                    Underpass mein paani bhar jata hai halki baarish mein bhi        Roads    High     Aligarh           3      Yes
+123                                                Road safety barrier toota hua hai highway par        Roads    High      Kanpur           2      Yes
+124                         Naye area mein road hi nahi banayi gayi abhi tak, kachcha raasta hai        Roads  Medium       Noida          24       No
+125                                           Traffic jam roz lagta hai ek hi signal ki wajah se        Roads     Low     Mathura          14      Yes
+126                                         Road par illegal speed breaker bana diya hai kisi ne        Roads  Medium   Allahabad           4      Yes
+127                                            Cycle track encroach kar liya gaya hai dukaano ne        Roads     Low       Patna          17      Yes
+128                         Pul ke neeche jhuggiyan ban gayi hain, traffic flow disturb hota hai        Roads     Low   Moradabad          37       No
+129                                     Naya construction debris road ke side mein hi dumped hai        Roads  Medium        Agra           9      Yes
+130                                        U-turn ka koi proper marking nahi hai is junction par        Roads  Medium     Aligarh          20       No
+131                                Road ki repair ke baad bhi gaddhe wapas aa gaye ek hafte mein        Roads  Medium     Aligarh          29       No
+132                                                Drainage cover missing hai road ke beech mein        Roads    High   Ghaziabad          15       No
+133                                     Highway par cattle roam karte hain, accident ka risk hai        Roads    High   Ghaziabad           1      Yes
+134                            Naye signal lagaye gaye lekin timing sahi nahi hai, jam badh gaya        Roads     Low  Saharanpur          20      Yes
+135                                      Pedestrian crossing bridge ka kaam adhura hai mahino se        Roads  Medium   Ghaziabad           7      Yes
+136                                    Galiyon mein road narrow hai, ambulance bhi nahi ja paati        Roads    High   Allahabad           4      Yes
+137                                     Naya pul banaya tha but approach road abhi tak nahi bani        Roads  Medium   Allahabad           4      Yes
+138                         Road ke side ka drain cover missing hai, scooter wale gir jaate hain        Roads    High      Bhopal           3      Yes
+139                               Galiyon mein interlocking tiles ukhad gayi hain jagah jagah se        Roads     Low  Saharanpur          38       No
+140                              Highway par illegal cut banaya gaya hai jisse accident hota hai        Roads    High     Mathura           1      Yes
+141                         Naye road ka kaam shuru hone ke baad se dust pollution badh gaya hai        Roads  Medium    Bareilly          17       No
+142                               Sadak par naye gaddhe ban gaye hain pichle hafte ki baarish se        Roads  Medium       Delhi          10      Yes
+143                             Bus route ka road itna narrow hai ki do bus cross nahi kar paati        Roads  Medium     Aligarh          26       No
+144                 Construction ke baad road level area se neecha reh gaya, paani jama hota hai        Roads  Medium      Meerut          26       No
+145                                Railway crossing ke pass road bahut kharab hai, jam lagta hai        Roads  Medium    Varanasi          10      Yes
+146                                           Naye flyover ke neeche lighting nahi hai raat mein        Roads    High       Delhi           3      Yes
+147                              Sadak kinare ka pole jhukk gaya hai, traffic ke liye khatra hai        Roads    High        Agra           4      Yes
+148                              Market area mein parking ki wajah se road blocked rehta hai roz        Roads     Low   Gorakhpur          22       No
+149                     School ke pass road par rumble strips nahi hain, speed control nahi hota        Roads  Medium    Varanasi          27       No
+150                                        Kachra uthane wali gaadi nahi aati hamari colony mein   Sanitation  Medium   Gorakhpur          10      Yes
+151                                 Naala block ho gaya hai, ganda paani sadak par bhar raha hai   Sanitation    High       Patna          11       No
+152                                          Public toilet bahut ganda hai, saaf nahi hota kabhi   Sanitation  Medium       Noida           4      Yes
+153                                Kachre ka dher lag gaya hai khaali plot mein, badboo aati hai   Sanitation  Medium   Moradabad           6      Yes
+154                             Machhar bahut badh gaye hain naale ke pass, dengue ka khatra hai   Sanitation    High       Noida           1      Yes
+155                                    Safai karamchari nahi aate hamari gali mein kaafi dino se   Sanitation  Medium       Delhi           4      Yes
+156                               Dustbin nahi hai market area mein, log road par hi phekte hain   Sanitation     Low       Delhi           8      Yes
+157                                        Slaughterhouse ka waste khule mein phenka ja raha hai   Sanitation    High       Patna           3      Yes
+158                                             Drainage system fail ho gaya hai is monsoon mein   Sanitation    High      Jaipur           5      Yes
+159                                           Park mein safai nahi hoti, bachche khel nahi paate   Sanitation     Low        Agra          27       No
+160                                     Sewage treatment plant se badboo aati hai pure area mein   Sanitation  Medium      Jaipur          21       No
+161                                                Open defecation ho rahi hai khaali zameen par   Sanitation  Medium      Kanpur           9      Yes
+162                                                     Naali ka kachra saaf nahi hota mahino se   Sanitation  Medium  Saharanpur          28       No
+163                               Medical waste idhar udhar phenka mil raha hai hospital ke pass   Sanitation    High     Mathura           1      Yes
+164                                          Street dogs bahut badh gaye hain kachre ki wajah se   Sanitation     Low       Delhi          43       No
+165                                             Public urinal ki smell pure bazaar mein aati hai   Sanitation     Low   Moradabad          10      Yes
+166                                                Compost pit overflow ho raha hai society mein   Sanitation     Low   Ghaziabad          15      Yes
+167                                         Garbage segregation nahi ho raha jaisa bola gaya tha   Sanitation     Low     Mathura          13      Yes
+168                       Naya dustbin lagaya tha but uthaya nahi ja raha hai bhar jaane ke baad   Sanitation  Medium  Saharanpur          15       No
+169                                            Slaughter waste naale mein bahaya ja raha hai roz   Sanitation    High      Kanpur           1      Yes
+170                                                 Public park mein toilet ki facility nahi hai   Sanitation     Low       Patna          17      Yes
+171                                               Garbage truck time badal diya bina suchna diye   Sanitation     Low    Varanasi          26       No
+172                                         Naala saaf karne wale machine bahut din se nahi aayi   Sanitation  Medium    Bareilly          29       No
+173                                Market area mein vegetable waste sadak par hi phenka jata hai   Sanitation  Medium      Bhopal           6      Yes
+174                                          Construction site ka malba sadak par phaila hua hai   Sanitation  Medium      Meerut           7      Yes
+175                                          Society ke STP plant se badboo aati hai roz raat ko   Sanitation    High     Lucknow           1      Yes
+176                                  Kachre mein aag laga di jaati hai jo smoke create karti hai   Sanitation    High   Allahabad           3      Yes
+177                                              Public toilet mein paani ka connection nahi hai   Sanitation  Medium      Bhopal           6      Yes
+178                                      Naya sweeper assign hua tha lekin area cover nahi karta   Sanitation     Low      Kanpur          32       No
+179                             Dead animal road par pada hai kaafi der se, koi uthane nahi aaya   Sanitation    High    Varanasi           4      Yes
+180                                          Drain cleaning ke baad mud wahi chhod diya jata hai   Sanitation     Low   Moradabad           9      Yes
+181                                   Open drain mein bachche khelte hain, infection ka risk hai   Sanitation    High     Mathura          16       No
+182                                               Naya STP banaya tha lekin kabhi chalu nahi hua   Sanitation  Medium      Bhopal           8      Yes
+183                                     Market mein fish/meat waste ki proper disposal nahi hoti   Sanitation  Medium    Bareilly           7      Yes
+184                                  Cleanliness drive ke baad bhi situation wapas waisi ho gayi   Sanitation     Low     Mathura          25       No
+185                           Public bin overflow karta hai weekend par jab zyada crowd hota hai   Sanitation  Medium      Jaipur          20       No
+186                                                 Naala cover nahi hai, bachche gir sakte hain   Sanitation    High     Lucknow           4      Yes
+187                                        Naya STP banaya tha lekin operator hi nahi rakha gaya   Sanitation  Medium      Bhopal           5      Yes
+188                    Slum area mein community toilet ki number kam hai population ke hisaab se   Sanitation  Medium   Allahabad           9      Yes
+189                         Naala safai ke baad nikla hua kachra wahi chhod diya gaya kinare par   Sanitation     Low  Saharanpur          27       No
+190                               Hospital ke pass garbage dump ban gaya hai, infection risk hai   Sanitation    High        Agra           2      Yes
+191                              Naye dustbin lagaye gaye but woh bahut chhote hain area ke liye   Sanitation     Low        Agra          17      Yes
+192                                    Market mein waste segregation ke liye alag bins nahi hain   Sanitation     Low       Noida          14      Yes
+193                         Mosquito breeding ho rahi hai khade paani mein, fogging nahi ho rahi   Sanitation    High      Indore           3      Yes
+194                                  Naye area mein safai karamchari assign hi nahi hue abhi tak   Sanitation  Medium     Aligarh           5      Yes
+195                                               Public toilet mein light nahi hai raat ke time   Sanitation  Medium   Allahabad           8      Yes
+196                                 Dead rats mil rahe hain drain ke pass, smell bahut zyada hai   Sanitation    High        Agra           4      Yes
+197                                        Naya kachra collection van schedule follow nahi karta   Sanitation     Low      Bhopal          32       No
+198                                   Society ka garbage chute block ho gaya hai upper floors se   Sanitation  Medium   Gorakhpur          18       No
+199                             Open nala school ke bahar se guzarta hai, bachche risk mein hain   Sanitation    High      Jaipur          10       No
+200                                             Sarkari hospital mein doctor nahi milte time par       Health    High    Varanasi           4      Yes
+201                  Dawai sarkari hospital mein available nahi hai, bahar se kharidni padti hai       Health  Medium       Noida          10      Yes
+202                                                     Ambulance call karne par der se aati hai       Health    High      Bhopal           1      Yes
+203                                           PHC mein staff bahut kam hai, lambi line lagti hai       Health  Medium      Bhopal           4      Yes
+204                                             Vaccination camp cancel ho gaya bina suchna diye       Health  Medium       Noida           9      Yes
+205                                           Hospital mein bed nahi mil raha emergency mein bhi       Health    High      Jaipur          13       No
+206                                  Free check-up camp ka announcement hua tha but laga hi nahi       Health     Low   Gorakhpur           9      Yes
+207                                  Hospital ki safai bahut kharab hai, infection ka khatra hai       Health  Medium   Gorakhpur           9      Yes
+208                                             Blood bank mein zaroorat ke waqt blood nahi mila       Health    High    Bareilly          14       No
+209                                           Anganwadi mein bachon ko khana time par nahi milta       Health  Medium   Allahabad          19       No
+210                      Mental health counselling ki facility nahi hai is area ke hospital mein       Health     Low   Ghaziabad          10      Yes
+211                                  X-ray machine kharab hai mahino se government hospital mein       Health  Medium       Delhi           8      Yes
+212                                       Dengue ke case badh rahe hain but fogging nahi ho rahi       Health    High       Delhi           5      Yes
+213                             Doctor private practice ke liye sarkari duty chod kar jaate hain       Health  Medium      Jaipur           3      Yes
+214                                               Maternity ward mein basic facilities nahi hain       Health    High       Patna           2      Yes
+215                                             Medicine expiry date ki dawai di gayi thi PHC se       Health    High     Lucknow           2      Yes
+216                                       Health insurance card kaam nahi kar raha hospital mein       Health  Medium   Gorakhpur           6      Yes
+217                                        Cleanliness ki kami hai operation theatre ke aas paas       Health    High       Delhi           4      Yes
+218                              Government hospital mein OPD line bahut lambi hoti hai subah se       Health  Medium       Patna           4      Yes
+219                                          Free dawai scheme ka labh nahi mil raha counter par       Health  Medium   Moradabad          17       No
+220                                  Hospital mein oxygen cylinder ki kami thi emergency ke time       Health    High   Moradabad           5      Yes
+221                                     Eye check-up camp announce hua tha lekin staff nahi aaya       Health     Low      Bhopal          17      Yes
+222                                             ICU mein bed available nahi tha jab zaroorat thi       Health    High      Meerut           4      Yes
+223                                     Diagnostic lab ke results aane mein bahut time lagta hai       Health  Medium    Bareilly           5      Yes
+224                                        Sarkari hospital mein ambulance hi nahi hai available       Health    High      Indore           4      Yes
+225                               Newborn vaccination schedule miss ho gaya hospital ki galti se       Health  Medium       Delhi           8      Yes
+226                                                Mental health helpline number kaam nahi karta       Health  Medium       Patna           7      Yes
+227                                Hospital canteen ka khana quality kharab hai patients ke liye       Health     Low    Varanasi          21       No
+228                                     COVID booster camp band ho gaya area mein bina notice ke       Health     Low   Allahabad          19      Yes
+229                                   Senior citizen ke liye alag counter nahi hai hospital mein       Health  Medium   Ghaziabad          10      Yes
+230                               Dialysis machine kharab hai mahino se government hospital mein       Health    High    Varanasi           3      Yes
+231                                    Doctor ne sahi se examine nahi kiya, jaldi mein bhej diya       Health  Medium  Saharanpur           6      Yes
+232                                          Health camp mein dawai khatam ho gayi beech mein hi       Health     Low      Bhopal          18      Yes
+233                                    Government hospital mein cleanliness staff strike par hai       Health    High  Saharanpur           1      Yes
+234                                 Pregnancy checkup ke liye appointment hi nahi milta time par       Health  Medium        Agra           5      Yes
+235                                        Ambulance number busy aata hai har baar try karne par       Health    High      Bhopal           1      Yes
+236                                          TB treatment center mein dawai stock khatam ho gaya       Health    High       Patna          12       No
+237                                     Naya CT scan machine kharab pada hai delivery ke baad se       Health  Medium     Mathura           4      Yes
+238                               Free eye surgery camp ka registration band ho gaya bahut jaldi       Health     Low   Moradabad           8      Yes
+239                                Hospital mein wheelchair available nahi hai emergency ke liye       Health  Medium      Meerut           4      Yes
+240                                       Naya PHC banaya tha but staff abhi tak posted nahi hua       Health  Medium  Saharanpur           4      Yes
+241                                   Polio drops camp ki information time par nahi mili logo ko       Health     Low   Ghaziabad          24       No
+242                         Government hospital mein night shift mein doctor available nahi hota       Health    High    Bareilly           5      Yes
+243                                      Cancer screening camp cancel ho gaya bina reason bataye       Health  Medium  Saharanpur          18       No
+244                                              Naya ward banaya tha but bed abhi tak nahi aaye       Health  Medium      Kanpur          29       No
+245                            Hospital mein washroom itne gande hain ki patients use nahi karte       Health  Medium      Jaipur          24       No
+246                                              Asha worker area mein nahi aati checkup ke liye       Health  Medium     Lucknow           4      Yes
+247                               Govt hospital mein report ke liye 3 hafte wait karna padta hai       Health  Medium   Moradabad          10      Yes
+248                               Naya ambulance mila tha but driver ki kami hai chalane ke liye       Health    High    Varanasi           2      Yes
+249                                           Police patrolling raat mein hoti hi nahi area mein       Police  Medium  Saharanpur           5      Yes
+250                                 Property dispute mein police dono taraf se paisa le rahi hai       Police    High   Moradabad           3      Yes
+251                        Online fraud hua tha, complaint diye 2 mahine ho gaye koi update nahi       Police  Medium   Allahabad           7      Yes
+252                                          Traffic police signal tod ke vehicles ko nahi rokte       Police     Low    Varanasi           9      Yes
+253                             Police station mein staff rude behave karta hai victims ke saath       Police  Medium      Jaipur           6      Yes
+254                        Illegal liquor sale ho rahi hai area mein, complaint ka asar nahi hua       Police  Medium   Gorakhpur           6      Yes
+255                            Senior citizen ke saath cheating hui, police ne case hi nahi liya       Police    High      Indore          19       No
+256                                                Local police chowki band rehti hai zyada time       Police     Low     Lucknow          20      Yes
+257                                          Bike chori ho gayi thi, FIR copy abhi tak nahi mili       Police  Medium    Varanasi          26       No
+258                                            Mob ne shop tod di, police time par nahi pahunchi       Police    High    Bareilly           5      Yes
+259                                   Police verification ke liye ghar visit nahi hua mahino tak       Police     Low       Delhi          20       No
+260                               Child labor case mein police action lene mein der kar rahi hai       Police    High     Aligarh           2      Yes
+261                              Threat call mila tha, complaint diye but koi suraksha nahi mili       Police    High      Meerut           5      Yes
+262                                     Anti-social elements area mein khulam khula ghoomte hain       Police  Medium     Aligarh           4      Yes
+263                                          Women helpline gaadi der se pahunchi emergency mein       Police    High      Jaipur          11       No
+264                                          Cyber cell ne case register karne se inkar kar diya       Police  Medium       Delhi           5      Yes
+265                                       Public property tod di gayi protest mein, FIR nahi hui       Police  Medium      Nagpur           8      Yes
+266                                 Senior officer se milne ka time nahi milta complaint ke liye       Police     Low   Moradabad          13      Yes
+267                               Road rage incident hua tha, police ne dono taraf ko chhod diya       Police  Medium    Bareilly           5      Yes
+268                    Naye area mein police chowki banane ki maang ki gayi thi, koi action nahi       Police     Low       Patna           9      Yes
+269                                  Senior citizen ke ghar mein chori hui, police late pahunchi       Police    High      Bhopal           5      Yes
+270                                          Local police beat officer ka number kaam nahi karta       Police     Low     Aligarh          18      Yes
+271                                      Women helpline app location track nahi kar pata sahi se       Police    High    Bareilly           2      Yes
+272                                        FIR copy dene mein police station bahut time leta hai       Police  Medium  Saharanpur           8      Yes
+273                          Illegal construction ki complaint police ko di but action nahi liya       Police     Low       Noida          19      Yes
+274                                 Naya CCTV camera laga tha chowk par but kabhi kaam nahi kiya       Police     Low       Noida          43       No
+275                            Drunk driving roz hoti hai night mein, police checking nahi karti       Police  Medium       Noida          10      Yes
+276                          Cyber fraud case mein bank details police ko di but koi update nahi       Police  Medium  Saharanpur           3      Yes
+277                           Local dispute mein police dono parties ko equally treat nahi karti       Police  Medium    Bareilly          23       No
+278                                Stalking complaint diye but koi protection nahi mili abhi tak       Police    High   Ghaziabad           4      Yes
+279                       Police station mein women officer available nahi thi complaint ke time       Police  Medium  Saharanpur           4      Yes
+280                                      Naye area mein patrolling van kabhi nahi aati raat mein       Police  Medium       Noida           6      Yes
+281                                        Police station mein FIR likhne se inkar kar diya gaya       Police    High       Patna           3      Yes
+282                                  Chain snatching ho rahi hai area mein, patrolling nahi hoti       Police    High   Ghaziabad           2      Yes
+283                                       Police complaint ke baad bhi koi action nahi liya gaya       Police  Medium    Bareilly          19       No
+284                                            Traffic police bina reason challan kaat rahe hain       Police     Low     Aligarh          30       No
+285                                          Local goons ki wajah se area mein dar ka mahaul hai       Police    High     Lucknow           4      Yes
+286                                                    Police helpline number uthata hi nahi hai       Police  Medium      Kanpur           6      Yes
+287                                       Beat constable kabhi area mein aata nahi gasht ke liye       Police  Medium       Patna           5      Yes
+288                                     Mahila suraksha helpline response nahi de rahi raat mein       Police    High  Saharanpur           2      Yes
+289                                        Stolen vehicle ki report ke baad koi update nahi mila       Police  Medium  Saharanpur           5      Yes
+290                                  Police station mein bribe maangi gayi report likhne ke liye       Police    High     Mathura           5      Yes
+291                                         Illegal parking ki complaint par koi action nahi hua       Police     Low       Patna          17      Yes
+292                           Cyber crime complaint diye hue ek mahina ho gaya, update nahi mila       Police  Medium      Bhopal           4      Yes
+293                                    Domestic violence case mein police ne seriously nahi liya       Police    High        Agra           1      Yes
+294                              Noise complaint ke baad bhi loudspeaker band nahi hua raat mein       Police     Low      Kanpur          11      Yes
+295                                                  Eve teasing ho rahi hai school ke bahar roz       Police    High     Aligarh           3      Yes
+296                           Police verification certificate banne mein bahut time lag raha hai       Police     Low   Ghaziabad          15      Yes
+297                              Drunk driving case mein action nahi liya gaya complaint ke baad       Police  Medium      Jaipur           3      Yes
+298                                      Missing person report file karne mein police ne deri ki       Police    High     Lucknow          14       No
+299                                                    Sarkari school mein teacher nahi aate roz    Education  Medium       Delhi           8      Yes
+300                                     School mein toilet ki facility nahi hai bachchon ke liye    Education  Medium        Agra           5      Yes
+301                                         Mid-day meal ki quality bahut kharab hai school mein    Education  Medium     Mathura          15       No
+302                                  Scholarship form jama kiya tha but paisa abhi tak nahi aaya    Education     Low      Kanpur          18      Yes
+303                                School building ki haalat kharab hai, chhat se paani aata hai    Education    High        Agra           3      Yes
+304                                           Library mein books update nahi hui kaafi saalon se    Education     Low      Bhopal          13      Yes
+305                        Online classes ke liye internet facility nahi hai gaon ke school mein    Education  Medium        Agra           7      Yes
+306                                       Teacher vacancy bahut time se khaali hai subjects mein    Education  Medium  Saharanpur           8      Yes
+307                                                   School fees badha diya gaya bina notice ke    Education     Low   Ghaziabad          17      Yes
+308                                                        Exam ka result late aata hai har baar    Education     Low      Kanpur          19      Yes
+309                           Bachon ko books time par nahi milti session start hone ke baad bhi    Education  Medium      Bhopal          19       No
+310                                       Sports equipment nahi hai school mein practice ke liye    Education     Low       Noida          19      Yes
+311                                                    Anganwadi teacher training nahi hui kabhi    Education     Low    Varanasi          20       No
+312                                         School van ki condition kharab hai, safety issue hai    Education    High    Varanasi           4      Yes
+313                                               Admission process mein extra paisa maanga gaya    Education  Medium       Noida           5      Yes
+314                                   Special needs bachon ke liye facility nahi hai school mein    Education  Medium      Kanpur          16       No
+315                                                College mein lab equipment purana ho gaya hai    Education     Low      Jaipur          10      Yes
+316                                      Hostel mein basic facilities nahi hain students ke liye    Education  Medium     Mathura           7      Yes
+317                                      School mein computer lab hai but system kaam nahi karte    Education     Low      Meerut          18      Yes
+318                            Teacher students ko private tuition lene ke liye force karte hain    Education  Medium   Gorakhpur          22       No
+319                                       School ki boundary wall gir gayi hai, safety issue hai    Education    High    Varanasi          10       No
+320                                      Exam center bahut dur diya gaya hai students ke ghar se    Education     Low   Ghaziabad          17      Yes
+321                                                Free uniform scheme ka labh is saal nahi mila    Education     Low    Bareilly          20      Yes
+322                                         College mein placement cell properly kaam nahi karta    Education     Low      Indore          13      Yes
+323                                                Anganwadi mein basic padhai material nahi hai    Education  Medium      Meerut           6      Yes
+324                                            School transport fees badhayi gayi without notice    Education     Low        Agra          17      Yes
+325                                    Teacher transfer ke baad subject ka replacement nahi mila    Education  Medium     Aligarh           7      Yes
+326                                    Exam paper leak hone ki khabar aayi thi local school mein    Education    High    Varanasi          12       No
+327                                         Girls ke liye separate washroom nahi hai school mein    Education    High      Meerut           5      Yes
+328                                                  Mid-day meal mein keede mil gaye thali mein    Education    High   Gorakhpur          11       No
+329                                  College fees refund nahi hua admission cancel karne ke baad    Education  Medium    Varanasi           8      Yes
+330               Government school mein bench desk ki kami hai, bachche zameen par baithte hain    Education  Medium   Allahabad          10      Yes
+331                       Skill development scheme ka form bhara tha but training shuru nahi hui    Education     Low      Nagpur          12      Yes
+332                                                 Online exam portal crash ho gaya exam ke din    Education  Medium       Patna           6      Yes
+333                                          Teacher attendance register manipulate ki jaati hai    Education     Low      Indore          26       No
+334                                             Hostel mess ka khana kharab quality ka milta hai    Education  Medium      Kanpur          21       No
+335                              School mein bijli nahi hai, summer mein padhai mushkil hoti hai    Education  Medium    Varanasi          10      Yes
+336                           Naya smart classroom banaya tha but projector kabhi kaam nahi kiya    Education     Low      Jaipur          12      Yes
+337                                  School mein drinking water ki facility kharab hai mahino se    Education  Medium   Ghaziabad          15       No
+338                           Teacher ratio bahut kam hai ek class mein 60 se zyada bachche hain    Education  Medium      Jaipur           4      Yes
+339                                       Scholarship ka paisa pichle saal ka abhi tak nahi mila    Education  Medium      Kanpur          21       No
+340                               College mein library timing bahut limited hai exam ke time bhi    Education     Low      Jaipur          13      Yes
+341                                Naya lab equipment kharida tha but training kisi ko nahi mili    Education     Low   Moradabad          19      Yes
+342                          School building mein crack aa gaye hain, safety inspection nahi hui    Education    High   Gorakhpur          16       No
+343                                       Anganwadi center mein roof leak karta hai baarish mein    Education  Medium     Lucknow           5      Yes
+344                                   Student ID card banne mein 2 mahine se zyada lag rahe hain    Education     Low        Agra           9      Yes
+345                                        School mein CCTV nahi hai jabki promise kiya gaya tha    Education  Medium      Indore          19       No
+346                                      Naya syllabus mil gaya but books abhi print hi nahi hui    Education  Medium      Nagpur          26       No
+347                         Hostel mein lighting kam hai, padhai mein problem hoti hai raat mein    Education     Low        Agra           7      Yes
+348                                     Sports teacher ki post khaali hai do saal se school mein    Education     Low      Meerut          15      Yes
+349                                                          Bus time par nahi aati is route par    Transport  Medium       Noida           3      Yes
+350                                     Auto wale meter se nahi chalte, zyada paisa maangte hain    Transport     Low   Ghaziabad          30       No
+351                            Bus stop ka shed toota hua hai, baarish mein bachne ki jagah nahi    Transport     Low    Bareilly          19      Yes
+352                                           Local train bahut crowded hoti hai peak hours mein    Transport  Medium    Bareilly           9      Yes
+353                                    Rickshaw stand par jagah nahi milti, traffic jam hota hai    Transport     Low      Bhopal           7      Yes
+354                                                      Bus conductor extra fare maang raha tha    Transport     Low      Kanpur           9      Yes
+355                                           Railway station par escalator kharab hai mahino se    Transport  Medium    Bareilly           4      Yes
+356                               Night time mein public transport available nahi hota area mein    Transport  Medium   Allahabad           8      Yes
+357                                         Bus driver rules follow nahi karte, tez chalate hain    Transport    High   Allahabad           4      Yes
+358                                           Metro card recharge machine kharab hai station par    Transport     Low   Ghaziabad           7      Yes
+359                                                   Parking ki jagah nahi hai station ke bahar    Transport     Low   Allahabad          15      Yes
+360                                               Disabled friendly facility nahi hai buses mein    Transport  Medium      Bhopal           8      Yes
+361                                    Auto stand par overcrowding hoti hai, accident ka dar hai    Transport  Medium   Allahabad           8      Yes
+362                                                    Bus route change ho gaya bina suchna diye    Transport     Low   Moradabad          18      Yes
+363                                  Railway crossing gate der tak band rehta hai, jam lagta hai    Transport  Medium     Aligarh           9      Yes
+364                                           E-rickshaw bina permit ke chal rahe hain area mein    Transport     Low   Moradabad          42       No
+365                                                 Bus mein CCTV kaam nahi karta safety ke liye    Transport  Medium     Aligarh           6      Yes
+366                                              Highway toll booth par lambi line lagti hai roz    Transport     Low   Allahabad          41       No
+367                                   Auto rickshaw union illegal tarike se fare badha rahe hain    Transport     Low       Noida          20      Yes
+368                         Bus mein seat reserved hone ke bawajood nahi milti senior citizen ko    Transport  Medium    Bareilly           4      Yes
+369                                        Railway ticket counter par bahut lambi line lagti hai    Transport     Low       Noida          15      Yes
+370                                               E-rickshaw charging station nahi hai area mein    Transport     Low       Noida          32       No
+371                                Bus conductor mahila passengers ke saath badtameezi karta hai    Transport    High       Patna           2      Yes
+372                                 Highway par streetlight nahi hai, raat mein travel risky hai    Transport    High    Bareilly           5      Yes
+373                                         Local train schedule app mein wrong time dikhata hai    Transport     Low   Moradabad          26       No
+374                                Bus stand par chhat nahi hai, garmi mein wait karna padta hai    Transport     Low      Kanpur           7      Yes
+375                               Driver license bina hi vehicle chalate hain kuch log area mein    Transport  Medium   Allahabad           8      Yes
+376                  Railway station par foot overbridge bahut steep hai senior citizens ke liye    Transport  Medium   Ghaziabad           7      Yes
+377                                       Bus mein overcrowding ki wajah se accident ho gaya tha    Transport    High    Varanasi           3      Yes
+378                            Toll plaza par FASTag scan nahi hota, manual paisa lena padta hai    Transport     Low      Meerut          10      Yes
+379                            Auto stand illegal area mein bana hua hai, traffic block hota hai    Transport  Medium  Saharanpur           5      Yes
+380                                               Bus route map kahin display nahi hai stand par    Transport     Low  Saharanpur          24       No
+381                                 Cab driver route change kar deta hai zyada fare lene ke liye    Transport     Low     Aligarh          10      Yes
+382                                            Railway platform par CCTV nahi hai safety ke liye    Transport  Medium     Mathura           3      Yes
+383                                                   Bus AC kharab hai garmi ke season mein bhi    Transport     Low  Saharanpur           9      Yes
+384                                                 School bus driver overspeeding karta hai roz    Transport    High      Nagpur           4      Yes
+385                                Naya bus stand banaya tha but signage missing hai kahin kahin    Transport     Low        Agra          26       No
+386                          Local train mein women coach mein bhi crowding hoti hai bahut zyada    Transport  Medium   Ghaziabad           7      Yes
+387                             Auto driver route lamba le jaate hain zyada paisa banane ke liye    Transport     Low   Ghaziabad          15      Yes
+388                             Naye e-bus laaye gaye but charging infrastructure nahi hai poora    Transport  Medium       Noida           7      Yes
+389                          Railway foot overbridge par lift kharab hai senior citizens ke liye    Transport  Medium      Bhopal          19       No
+390                          Bus mein conductor ticket nahi deta sahi se, hisaab match nahi hota    Transport     Low       Delhi          14      Yes
+391                       School van overloaded chalti hai roz, safety risk hai bachchon ke liye    Transport    High      Indore          18       No
+392                                Highway par rest stop facility nahi hai lambi journey ke liye    Transport     Low        Agra          15      Yes
+393                                 Auto stand par fight hoti hai roz passengers ko lene ke liye    Transport  Medium       Patna          10      Yes
+394                                         Railway station par disabled ramp nahi hai entry par    Transport  Medium    Varanasi           5      Yes
+395                                                  Bus driver phone use karta hai chalate waqt    Transport    High    Varanasi           4      Yes
+396                                  Local transport app mein real time tracking kaam nahi karta    Transport     Low      Nagpur          15      Yes
+397                                      Naya railway overbridge approach road se disconnect hai    Transport  Medium       Delhi          10      Yes
+398                             Cab service surge pricing late night mein bahut zyada lagati hai    Transport     Low      Kanpur          10      Yes

@@ -1,0 +1,16 @@
+__pycache__/
+
+*.pyc
+
+.env
+
+.vscode/
+
+.streamlit/
+
+outputs/
+
+*.wav
+*.mp3
+
+Thumbs.db

@@ -17,39 +17,15 @@ from letter_generate import generate_letter
 
 def process_voice_complaint(audio_path):
 
-    # --------------------------------------------------
-    # Step 1 : Speech → Text
-    # --------------------------------------------------
-
     complaint_text = transcribe_audio(audio_path)
 
-    # --------------------------------------------------
-    # Step 2 : Category + Urgency
-    # --------------------------------------------------
-
     category, urgency = predict_complaint(complaint_text)
-
-    # --------------------------------------------------
-    # Step 3 : Entity Extraction
-    # --------------------------------------------------
-
+    
     entities = extract_entities(complaint_text)
-
-    # --------------------------------------------------
-    # Step 4 : Department Search
-    # --------------------------------------------------
-
+    
     department, similarity = find_department(complaint_text)
-
-    # --------------------------------------------------
-    # Step 5 : Similar Complaints
-    # --------------------------------------------------
-
+    
     similar = find_similar_complaints(complaint_text)
-
-    # --------------------------------------------------
-    # Step 6 : Letter Generation
-    # --------------------------------------------------
 
     letter = generate_letter(
         complaint_text,
@@ -58,10 +34,6 @@ def process_voice_complaint(audio_path):
         department,
         entities
     )
-
-    # --------------------------------------------------
-    # Step 7 : Return Everything
-    # --------------------------------------------------
 
     return {
 

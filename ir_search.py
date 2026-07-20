@@ -1,5 +1,4 @@
 import pandas as pd
-import joblib
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
@@ -11,28 +10,27 @@ complaints = pd.read_excel("category.xlsx")
 
 print("Building TF-IDF index...")
 
-# -------------------------------------------------------
-# Department Search
-# -------------------------------------------------------
 
 department_vectorizer = TfidfVectorizer(
     lowercase=True,
     stop_words="english",
-    ngram_range=(1,2)
+    ngram_range=(1,2),
+    min_df=1,
+    max_df=0.90,
+    sublinear_tf=True
 )
 
 department_matrix = department_vectorizer.fit_transform(
     departments["description"]
 )
 
-# -------------------------------------------------------
-# Complaint Search
-# -------------------------------------------------------
-
 complaint_vectorizer = TfidfVectorizer(
     lowercase=True,
     stop_words="english",
-    ngram_range=(1,2)
+    ngram_range=(1,2),
+    min_df=1,
+    max_df=0.90,
+    sublinear_tf=True
 )
 
 complaint_matrix = complaint_vectorizer.fit_transform(
@@ -41,39 +39,74 @@ complaint_matrix = complaint_vectorizer.fit_transform(
 
 print("IR System Ready!\n")
 
-# =======================================================
-# Department Search
-# =======================================================
 
-def find_department(text):
+def find_department(text, predicted_category=None):
+
+    filtered_departments = departments
+
+    if predicted_category is not None:
+
+        filtered_departments = departments[
+            departments["category"].str.lower() ==
+            predicted_category.lower()
+        ]
+
+        if len(filtered_departments) == 0:
+            filtered_departments = departments
+
+    temp_matrix = department_vectorizer.transform(
+        filtered_departments["description"]
+    )
 
     query = department_vectorizer.transform([text])
 
     scores = cosine_similarity(
         query,
-        department_matrix
+        temp_matrix
     )[0]
 
     idx = scores.argmax()
 
-    return departments.iloc[idx], scores[idx]
+    return filtered_departments.iloc[idx], scores[idx]
 
-# =======================================================
-# Similar Complaints
-# =======================================================
+def find_similar_complaints(
+        text,
+        predicted_category=None,
+        top_n=3):
+    filtered = complaints
 
-def find_similar_complaints(text, top_n=3):
+    if predicted_category is not None:
+        filtered = complaints[
+            complaints["category"].str.lower() ==
+             predicted_category.lower()
+    ]
 
+    if len(filtered) == 0:
+        filtered = complaints
+    
     query = complaint_vectorizer.transform([text])
 
+    temp_matrix = complaint_vectorizer.transform(
+        filtered["complaint_text"]
+)
     scores = cosine_similarity(
         query,
-        complaint_matrix
+        temp_matrix
     )[0]
 
-    complaints_copy = complaints.copy()
+    complaints_copy = filtered.copy()
+
+    complaints_copy = complaints_copy.drop_duplicates(
+        subset="complaint_text"
+)
 
     complaints_copy["Similarity"] = scores
+
+    complaints_copy = complaints_copy[
+        complaints_copy["Similarity"] > 0.10
+]
+    if complaints_copy.empty:
+        return pd.DataFrame(columns=complaints.columns)
 
     complaints_copy = complaints_copy.sort_values(
         by="Similarity",
@@ -82,9 +115,6 @@ def find_similar_complaints(text, top_n=3):
 
     return complaints_copy.head(top_n)
 
-# =======================================================
-# Test
-# =======================================================
 
 if __name__ == "__main__":
 

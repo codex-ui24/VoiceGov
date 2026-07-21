@@ -1,9 +1,18 @@
 import re
 
-# ==========================================================
-# CITIES
-# ==========================================================
+NORMALIZATION = {
 
+    "bijlee":"bijli",
+    "pani":"paani",
+    "sadak":"road",
+    "nali":"naali",
+    "nal":"tap",
+    "bijlii":"bijli",
+    "current":"electricity",
+    "light":"electricity",
+    "khamba":"pole"
+
+}
 CITIES = [
 
     "Kanpur",
@@ -37,190 +46,262 @@ CITIES = [
 
 ]
 
-# ==========================================================
-# ISSUE KEYWORDS
-# ==========================================================
-
 ISSUES = {
 
     "Electricity": [
+"electricity",
+"electric",
+"power",
+"power cut",
+"powercut",
+"current",
+"voltage",
+"transformer",
+"meter",
+"electric meter",
+"wire",
+"cable",
+"pole",
+"electric pole",
+"street light",
+"streetlight",
+"blackout",
+"load shedding",
+"spark",
+"fuse",
+"connection",
+"bill",
+"electricity bill",
 
-        "electricity",
-        "bijli",
-        "power",
-        "power cut",
-        "current",
-        "voltage",
-        "transformer",
-        "meter",
-        "wire",
-        "cable",
-        "khamba",
-        "pole",
-        "light",
-        "blackout",
-        "load shedding",
-        "spark",
-        "fuse",
-        "electric shock",
-        "street light",
-        "electricity bill",
-        "bill",
-        "connection"
-
-    ],
+"bijli",
+"bijlee",
+"light",
+"light gayi",
+"light chali gayi",
+"light nahi",
+"light nahi aa rahi",
+"current nahi",
+"current nahi aa raha",
+"bijli nahi",
+"bijli nahi aa rahi",
+"khamba",
+"tar",
+"meter kharab",
+"fuse udd gaya"
+],
 
     "Water": [
 
-        "water",
-        "paani",
-        "jal",
-        "tap",
-        "nal",
-        "pipeline",
-        "pipe",
-        "water supply",
-        "drinking water",
-        "tank",
-        "motor",
-        "pump",
-        "borewell",
-        "leakage",
-        "water connection",
-        "water bill",
-        "low pressure"
+"water",
+"water supply",
+"drinking water",
+"tap",
+"pipeline",
+"pipe",
+"tank",
+"motor",
+"pump",
+"borewell",
+"water leakage",
+"water bill",
+"water connection",
 
-    ],
+"pani",
+"paani",
+"jal",
+"nal",
+"nal ka pani",
+"pipe phat gaya",
+"pipe leak",
+"pipeline leak",
+"motor kharab",
+"tanki",
+"paani nahi aa raha",
+"paani nahi",
+"jal supply",
+"water problem",
+"leakage",
+"low pressure",
+"paani kam aa raha"
+],
 
     "Roads": [
 
-        "road",
-        "roads",
-        "street",
-        "gadda",
-        "pothole",
-        "footpath",
-        "bridge",
-        "divider",
-        "traffic",
-        "speed breaker",
-        "construction",
-        "cement road",
-        "lane",
-        "crossing"
+"road",
+"roads",
+"street",
+"pothole",
+"bridge",
+"footpath",
+"divider",
+"construction",
+"lane",
+"crossing",
+"speed breaker",
 
+"gadda",
+"gadde",
+"road kharab",
+"sadak",
+"sadak kharab",
+"sadak toot gayi",
+"road damage",
+"road toot gayi",
+"bridge damage",
+"footpath toot gaya"
+ 
     ],
 
     "Sanitation": [
 
-        "garbage",
-        "kachra",
-        "waste",
-        "dustbin",
-        "cleaning",
-        "drain",
-        "naali",
-        "drainage",
-        "sewer",
-        "overflow",
-        "blocked drain",
-        "dirty water",
-        "waterlogging",
-        "ganda paani",
-        "paani bhar gaya",
-        "paani jama",
-        "mosquito",
-        "smell",
-        "filth",
-        "septic"
+"garbage",
+"waste",
+"dustbin",
+"drain",
+"drainage",
+"sewer",
+"sewage",
+"overflow",
+"dirty water",
+"waterlogging",
+"mosquito",
+"filth",
+"smell",
+
+"kachra",
+"kachra pada hai",
+"naali",
+"nali",
+"naala",
+"nala",
+"jam",
+"blocked drain",
+"drain block",
+"ganda pani",
+"ganda paani",
+"paani bhar gaya",
+"paani jama",
+"badbu",
+"machhar",
+"sewer line",
+"sewer overflow"
+
 
     ],
 
     "Health": [
+"hospital",
+"doctor",
+"clinic",
+"medicine",
+"patient",
+"ambulance",
+"vaccination",
+"health",
+"treatment",
+"blood",
+"covid",
+"dengue",
+"malaria",
 
-        "hospital",
-        "doctor",
-        "medicine",
-        "patient",
-        "ambulance",
-        "clinic",
-        "vaccination",
-        "fever",
-        "covid",
-        "malaria",
-        "dengue",
-        "treatment",
-        "blood",
-        "operation",
-        "health"
+"aspatal",
+"doctor nahi",
+"medicine nahi",
+"dawai",
+"dawai nahi",
+"bimar",
+"bukhar",
+"fever",
+"ambulance nahi",
+"patient"
 
     ],
 
     "Police": [
 
-        "police",
-        "crime",
-        "theft",
-        "stolen",
-        "robbery",
-        "snatching",
-        "fight",
-        "violence",
-        "harassment",
-        "fraud",
-        "cyber crime",
-        "missing",
-        "kidnap",
-        "assault",
-        "traffic police",
-        "fir"
+"police",
+"crime",
+"theft",
+"stolen",
+"robbery",
+"fight",
+"violence",
+"harassment",
+"fraud",
+"cyber crime",
+"missing",
+"kidnap",
+"assault",
+"fir",
+
+"chori",
+"loot",
+"maar peet",
+"marpit",
+"jhagda",
+"fraud hua",
+"cyber fraud",
+"mobile chori",
+"bike chori",
+"gaadi chori",
+"police complaint"
 
     ],
 
     "Education": [
+"school",
+"college",
+"teacher",
+"student",
+"exam",
+"principal",
+"library",
+"fees",
+"admission",
+"hostel",
+"scholarship",
+"certificate",
 
-        "school",
-        "college",
-        "teacher",
-        "student",
-        "exam",
-        "principal",
-        "library",
-        "fees",
-        "admission",
-        "hostel",
-        "scholarship",
-        "certificate",
-        "attendance",
-        "education"
+"vidyalaya",
+"school fees",
+"college fees",
+"teacher absent",
+"principal",
+"exam problem",
+"admission issue",
+"hostel problem",
+"student"
 
     ],
 
     "Transport": [
+"bus",
+"train",
+"metro",
+"transport",
+"auto",
+"taxi",
+"rickshaw",
+"driver",
+"vehicle",
+"parking",
+"station",
+"ticket",
+"airport",
 
-        "bus",
-        "train",
-        "metro",
-        "transport",
-        "auto",
-        "taxi",
-        "rickshaw",
-        "driver",
-        "vehicle",
-        "parking",
-        "station",
-        "ticket",
-        "platform",
-        "airport",
-        "flight"
-
-    ]
-
+"bus nahi",
+"bus late",
+"train late",
+"metro late",
+"auto wala",
+"rickshaw wala",
+"gaadi",
+"vehicle",
+"parking problem",
+"driver issue" 
+  ]
+ 
 }
-
-# ==========================================================
-# DEPARTMENT MAPPING
-# ==========================================================
 
 DEPARTMENT_MAP = {
 
@@ -242,16 +323,19 @@ DEPARTMENT_MAP = {
 
 }
 
-# ==========================================================
-# DURATION PATTERNS
-# ==========================================================
-
 DURATION_PATTERNS = [
 
-    r'\d+\s*days?',
-    r'\d+\s*weeks?',
-    r'\d+\s*months?',
-    r'\d+\s*hours?',
+    r'\d+\s*day[s]?',
+    r'\d+\s*week[s]?',
+    r'\d+\s*month[s]?',
+    r'\d+\s*hour[s]?',
+    r'\d+\s*year[s]?',
+
+    r'\d+\s*din',
+    r'\d+\s*hafte',
+    r'\d+\s*mahine',
+    r'\d+\s*saal',
+
 
     r'ek din',
     r'do din',
@@ -271,74 +355,40 @@ DURATION_PATTERNS = [
     r'raat se',
     r'subah se',
     r'pichle hafte',
-    r'pichle mahine'
+    r'pichle mahine',
+    r'last week',
+    r'last month',
+    r'since yesterday',
+    r'since last week',
+    r'since last month'
 
 ]
 
-# ==========================================================
-# URGENCY KEYWORDS
-# ==========================================================
-
-HIGH_WORDS = [
-
-    "urgent",
-    "immediately",
-    "emergency",
-    "critical",
-    "danger",
-    "accident",
-    "fire",
-    "blood",
-    "hospital",
-    "death",
-    "injured",
-    "shock",
-    "blast"
-
-]
-
-MEDIUM_WORDS = [
-
-    "problem",
-    "issue",
-    "please",
-    "repair",
-    "broken",
-    "overflow",
-    "blocked",
-    "leakage",
-    "pending",
-    "delay"
-
-]
-
-
-# ==========================================================
-# ENTITY EXTRACTION
-# ==========================================================
 
 def extract_entities(text):
 
     text_lower = text.lower()
+    
+    text_lower = re.sub(r"[^a-zA-Z0-9\u0900-\u097F ]", " ", text_lower)
 
-    # -----------------------------
-    # Location
-    # -----------------------------
+    text_lower = re.sub(r"\s+", " ", text_lower)
 
-    location = "Not Found"
+    text_lower = text_lower.strip()
+
+    for old, new in NORMALIZATION.items():
+        text_lower = text_lower.replace(old, new)
+
+    locations = []
 
     for city in CITIES:
 
-        if city.lower() in text_lower:
+        if city.lower() in text_lower:   
+            locations.append(city)
 
-            location = city
+    if len(locations)==0:
+        locations=["Not Found"]
 
-            break
-
-    # -----------------------------
-    # Duration
-    # -----------------------------
-
+    
     duration = "Not Specified"
 
     for pattern in DURATION_PATTERNS:
@@ -346,86 +396,30 @@ def extract_entities(text):
         match = re.search(pattern, text_lower)
 
         if match:
-
             duration = match.group()
-
             break
 
-    # -----------------------------
-    # Category
-    # -----------------------------
+    matched_keywords = []
 
-    category = "Unknown"
-
-    issue_keywords = []
-
-    for cat, words in ISSUES.items():
+    for words in ISSUES.values():
 
         for word in words:
 
             if word.lower() in text_lower:
 
-                issue_keywords.append(word)
+                matched_keywords.append(word)
 
-                category = cat
+    matched_keywords = sorted(list(set(matched_keywords)))
 
-        if category != "Unknown":
-            break
+    return {    
 
-    # -----------------------------
-    # Department
-    # -----------------------------
+    "Location": locations,
 
-    department = DEPARTMENT_MAP.get(category, "Unknown")
+    "Duration": duration,
 
-    # -----------------------------
-    # Urgency
-    # -----------------------------
-
-    urgency = "Low"
-
-    for word in HIGH_WORDS:
-
-        if word in text_lower:
-
-            urgency = "High"
-
-            break
-
-    if urgency == "Low":
-
-        for word in MEDIUM_WORDS:
-
-            if word in text_lower:
-
-                urgency = "Medium"
-
-                break
-
-    # -----------------------------
-    # Return
-    # -----------------------------
-
-    return {
-
-        "Location": location,
-
-        "Duration": duration,
-
-        "Category": category,
-
-        "Department": department,
-
-        "Urgency": urgency,
-
-        "Matched Keywords": issue_keywords
+    "Matched Keywords": matched_keywords
 
     }
-
-
-# ==========================================================
-# TEST
-# ==========================================================
 
 if __name__ == "__main__":
 
